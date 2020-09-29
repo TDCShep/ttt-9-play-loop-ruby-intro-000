@@ -39,9 +39,9 @@ end
 
 def play (board)
           turn = 0
-    until turn(board) == 9 do
+    until turn(board) == turn(board)[9] do
           turn(board)
           puts "This is number #{turn}"
-      turn += 0.5
+      turn += 1
     end
   end
