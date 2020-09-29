@@ -42,6 +42,6 @@ def play (board)
     until turn(board) == 9 do
           turn(board)
           puts "This is number #{turn}"
-      turn += 1
+      turn += 0.5
     end
   end
