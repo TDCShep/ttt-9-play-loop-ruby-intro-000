@@ -39,7 +39,7 @@ end
 
 def play (board)
 until turn == 8
-  puts turn(board)
+  turn(board)
 
 turn += 1
 end
