@@ -40,7 +40,7 @@ end
 def play (board)
 until turn = 9
   turn(board)
-  
+
 turn += 1
 end
 end
